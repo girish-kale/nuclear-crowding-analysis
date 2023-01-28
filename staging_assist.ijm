@@ -3,7 +3,7 @@
 // to the same interphase. By choice, we will select the last timepoint where each nucleus in the field-of-view is in the interphase.
 //
 // We open the entire hyperstacks of embyos and a corresponding MAX projected time series to identify the end of interphases.
-// The macro will only process interphases 10 through 13
+// The macro will only process interphases 10 through 14
 
 run("Set Measurements...", "area mean standard centroid center perimeter shape redirect=None decimal=6");
 
