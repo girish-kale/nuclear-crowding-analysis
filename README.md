@@ -27,3 +27,8 @@ Finally, use 'nuclei_domain_size_data_analysis_fit.ijm' macro to...
 	select all the raw data folders to get all the data files from the same treatment.
 	consolidate the data from these data files.
 	export the data in a format that is specifically useful for direct import into GraphPad Prism.
+
+The other ImageJ macro files included here could be used for correcting errors, without having to start the whole analysis from scratch
+	
+	with 'nuclear_domain_size_redo.ijm', one can reload the segmentation and start from there
+	with 'nuclear_domain_size_reanalyze.ijm', one can start from scratch, if the prior segmentation wasn't good enough
