@@ -10,16 +10,12 @@ Then, use 'nuclei_domain_size.ijm' macro to...
 
 	generate a folder automatically inside the 'interphase nuclei count' folder, called 'nuclear domain size analysis'.
 	go over various timepoints from all the embryos that are in the same raw data folder.
-	
 	For each timepoint...
-	
 		select the data for analysis (crop in xyz).
 		perform semi-automated segmentation, where nuclei are detected as local maxima, and then corrected manually.
 		generate areas around each nucleus such that the edges of the area are equidistant from neighboring nuclei.
 		get the areas and x-y coordinates of the segmented areas, called "pseudo-cells".
-		
 		save all the relevant data including...
-		
 			xyz croped stack and its MAX projection
 			detected nuclei as image with dots
 			ImageJ ROIs for each segmented nucleus
