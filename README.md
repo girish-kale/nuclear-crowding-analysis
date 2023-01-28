@@ -30,5 +30,7 @@ Finally, use 'nuclei_domain_size_data_analysis_fit.ijm' macro to...
 
 The other ImageJ macro files included here could be used for correcting errors, without having to start the whole analysis from scratch
 	
-	with 'nuclear_domain_size_redo.ijm', one can reload the segmentation and start from there
-	with 'nuclear_domain_size_reanalyze.ijm', one can specifically process some timepoints without affecting others, starting from scratch
+	use 'nuclear_domain_size_redo.ijm' to...
+		reload the segmentation and start from there
+	use 'nuclear_domain_size_reanalyze.ijm' to...
+		specifically process some timepoints without affecting others, starting from scratch
