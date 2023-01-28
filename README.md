@@ -27,4 +27,3 @@ Finally, use 'nuclei_domain_size_data_analysis_fit.ijm' macro to...
 	select all the raw data folders to get all the data files from the same treatment.
 	consolidate the data from these data files.
 	export the data in a format that is specifically useful for direct import into GraphPad Prism.
-	
